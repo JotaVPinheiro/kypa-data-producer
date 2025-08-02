@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node src/server"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +12,6 @@
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
     "axios": "^1.11.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0"
+    "dotenv": "^17.2.1"
   }
 }
